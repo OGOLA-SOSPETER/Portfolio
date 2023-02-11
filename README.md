@@ -1,3 +1,3 @@
 # Portfolio
 My Portfolio Website
-![My image]("G:\My Drive\Desktp\Pictures\PPPPPC.jpg")
+<img src ="G:\My Drive\Desktp\Pictures\PPPPPC.jpg" alt = "my image">

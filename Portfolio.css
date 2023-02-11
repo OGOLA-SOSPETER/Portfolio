@@ -1,0 +1,25 @@
+body{
+    background-color: transparent;
+    margin-top: 20px;
+    border: 2px;
+}
+
+title{
+    color: chocolate;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-style: inherit;
+    font-kerning: inherit;
+}
+
+h1{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-variant: initial;
+    text-transform: capitalize;
+    text-shadow: 5cm;
+    text-overflow: ellipsis;
+    text-decoration: wavy;
+}

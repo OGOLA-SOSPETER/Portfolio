@@ -1,10 +1,10 @@
-body{
+body {
     background-color: transparent;
     margin-top: 20px;
     border: 2px;
 }
 
-title{
+title {
     color: chocolate;
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -13,7 +13,7 @@ title{
     font-kerning: inherit;
 }
 
-h1{
+h1 {
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 100;
@@ -22,4 +22,70 @@ h1{
     text-shadow: 5cm;
     text-overflow: ellipsis;
     text-decoration: wavy;
+}
+
+.topnav {
+    padding-left: 400px;
+    padding-right: 50px;
+    width: 900px;
+    height: 40px;
+    align-items: center;
+    overflow: hidden;
+    background-color: #333;
+    transition: ease-in-out 0s;
+}
+
+.topnav a {
+    align-items: center;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    offset: 80px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.contact_id {
+    background-color: bisque;
+    border-color: burlywood;
+    border-width: 2px;
+    offset: 400px;
+}
+
+.contact_id h2 {
+    align-items: center;
+    padding-left: 500px;
+}
+
+.container {
+    display: flex;
+}
+
+.mails p,
+h3 {
+    align-items: center;
+    padding-left: 100px;
+}
+
+.calls p,
+h3 {
+    align-items: center;
+    padding-left: 200px;
+}
+
+.sociallinks p,
+h3 {
+    align-items: center;
+    padding-left: 300px;
 }
